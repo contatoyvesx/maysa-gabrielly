@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-easter.jpg";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden pt-16">
+    <section className="relative min-h-[65vh] sm:min-h-[85vh] flex items-center justify-center overflow-hidden pt-16">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
